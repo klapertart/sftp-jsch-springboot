@@ -1,0 +1,1215 @@
+
+Connecting to GGKNG1 (10.35.185.4)
+ssh appunem@10.35.185.4
+Notice
+This product processes subscriber's personal data. Depending on the local/country legislation where the product is deployed and operated, the use of this product may require providing notice of operator's privacy policy to subscribers.
+
+Ericsson discloses personal information to customers, professional advisors, suppliers or other third parties engaged to perform administrative or other business management services. This disclosure is always on a confidential basis or otherwise in accordance with law. Ericsson may also disclose personal information with the individual's consent or if disclosure is required or authorized by law.
+Ericsson takes reasonable steps in all circumstances to ensure that the personal information it holds is protected from misuse, from interference and loss and from unauthorized access, modification or disclosure. Ericsson holds personal information in both hard copy and electronic forms in secure databases on secure premises, accessible only by authorized personnel.
+appunem@10.35.185.4's password: 
+Last login: Thu Aug  3 09:09:24 WIB 2023 from 10.52.19.24 on pts/32
+
+Welcome to Ericsson IPOS
+Copyright (c) 2011 Ericsson AB.
+All rights reserved.
+
+
+User appunem last logged in 2023-08-03T02:09:25.943557+00:00, to Ericsson, from 10.52.19.24 using cli-ssh
+appunem connected from 10.52.19.24 using ssh on GGKNG1
+[?7h[local]GGKNG1#show clock
+Thu Aug  3 15:08:53 2023 WIB
+[local]GGKNG1#epg pgw statistics of brief
+ggsn-statistics:
+    time-started: Tue Jul 11 00:14:23 2023
+    time-sampled: Thu Aug  3 15:08:53 2023
+
+    pdp-context-statistics:
+        eps-active-emergency-unath-ues: 0
+        pdp-active: 15907
+        eps-active-bearer: 418964
+        eps-active-bearer-wlan: 0
+        pdp-active-ipv6: 0
+        pdp-active-ipv4v6: 0
+        eps-active-ipv6-bearer: 0
+        eps-active-ipv4v6-bearer: 0
+        eps-active-bearer-nb-iot: 0
+        eps-active-bearer-lte-m: 0
+        pdp-create-attempted: 31842914
+        pdp-created: 31839040
+        pdp-create-failed: 3873
+        pdp-created-ipv6: 0
+        pdp-create-failed-ipv6: 3395
+        pdp-secondary-created: 0
+        pdp-secondary-create-failed: 0
+        pdp-secondary-created-ipv6: 0
+        pdp-secondary-attempted-ipv6: 0
+        eps-bearer-creation-attempted: 389548073
+        eps-bearer-creation: 386493812
+        eps-bearer-creation-failed: 3054261
+        eps-bearer-creation-ipv6: 0
+        eps-bearer-creation-ipv6-failed: 187337
+        eps-s2a-bearer-creation: 0
+        eps-s2a-bearer-creation-failed: 0
+        eps-s2b-bearer-creation: 0
+        eps-s2b-bearer-creation-failed: 0
+        eps-s2b-bearer-creation-ipv6: 0
+        eps-s2b-bearer-creation-failed-ipv6: 0
+        eps-s2b-bearer-creation-ipv4v6: 0
+        eps-s2b-bearer-creation-failed-ipv4v6: 0
+        eps-s2b-dedicated-bearer-creation: 0
+        eps-s2b-dedicated-bearer-creation-ipv6: 0
+        global-eps-completed-dedicated-bearer-activation: 164813910
+        global-eps-failed-dedicated-bearer-activation: 2864917
+        global-eps-completed-ipv6-dedicated-bearer-activation: 0
+        global-eps-failed-ipv6-dedicated-bearer-activation: 0
+        pdp-update-attempted: 233034503
+        pdp-updates: 228043584
+        pdp-update-failed: 4990914
+        eps-bearer-modification-attempted: 3085692511
+        eps-bearer-modification: 3064354031
+        eps-bearer-modification-failed: 71160
+        eps-bearer-qos-update-attempted: 122787883
+        eps-bearer-qos-update-completed: 103781266
+        pdp-successful-deactivations: 21258024
+        pdp-failed-deactivations: 4741977
+        pdp-deleted-by-idle-supervision: 3078175
+        pdp-deleted-by-session-supervision: 0
+        pdp-deleted-by-command: 0
+        eps-bearer-deactivation: 380157202
+        eps-bearer-deactivation-failed: 142135
+        eps-s2b-bearer-deactivation: 0
+        eps-s2b-bearer-deactivation-failed: 0
+        eps-active-non-ip-bearer: 0
+        pgw-preue-psdataoff-status: 0
+
+    subscriber-count: 415055
+    subscriber-count-5g: 0
+
+    pgw-overload-protection:
+        pgw-gtp-message-drops: 0
+        pgw-gtp-create-message-rejected: 0
+        pgw-gtp-create-message-drops: 0
+        create-session-rejected-max-rate: 0
+        locally-initiated-deletes-throttled: 0
+
+    emps-statistics:
+        active-sessions: 0
+        create-session-request-olp-memory-rejected: 0
+        create-session-request-bypassed: 0
+        create-bearer-request-admission-control-rejected: 0
+
+    radius-statistics-information:
+        radius-authentication-failure: 0
+        accounting-failure: 1755287614
+        radius-id-overflow: 0
+
+    statistics-3gdt:
+        active-3gdt: 0
+        ratio-3gdt: 0
+        successful-3gdt-activations: 0
+        total-3gdt-request: 0
+        errors-3gdt: 0
+
+    AAA-statistics-information:
+        authorization-request-sent: 0
+        successful-authorization-answer-received: 0
+        failed-authorization-answer-received: 0
+        invalid-authorization-answer-received: 0
+        session-termination-request-sent: 0
+        successful-session-termination-answer-received: 0
+        failed-session-termination-answer-received: 0
+        re-auth-request-received: 0
+        successful-re-auth-answer-sent: 0
+        failed-re-auth-answer-sent: 0
+        abort-session-request-received: 0
+        successful-abort-session-answer-sent: 0
+        failed-abort-session-answer-sent: 0
+        s6b-lite-authorization-request-sent: 0
+        s6b-lite-successful-authorization-answer-received: 0
+        s6b-lite-failed-authorization-answer-received: 0
+        s6b-lite-invalid-authorization-answer-received: 0
+        s6b-lite-session-termination-request-sent: 0
+        s6b-lite-successful-session-termination-answer-received: 0
+        s6b-lite-failed-session-termination-answer-received: 0
+        s6b-lite-re-auth-request-received: 0
+        s6b-lite-successful-re-auth-answer-sent: 0
+        s6b-lite-failed-re-auth-answer-sent: 0
+        s6b-lite-abort-session-request-received: 0
+        s6b-lite-successful-abort-session-answer-sent: 0
+        s6b-lite-failed-abort-session-answer-sent: 0
+
+    pdn-connection:
+        pdn-geran-connections: 15908
+        pdn-utran-connections: 0
+        pdn-eutran-connections: 401591
+        pdn-hspa-evolution-connections: 0
+        pdn-wlan-connections: 0
+        pdn-pgw-connections: 417481
+        pdn-ggsn-connections: 0
+        pdn-pisc-connections: 0
+        pdn-online-charging-connections: 63304
+        pdn-dynamic-policy-control-connections: 417499
+        pdn-nb-iot-connections: 0
+        pdn-lte-m-connections: 0
+        pdn-lapi-connections: 0
+        pdn-suspended-connections: 1418
+
+    non-3gpp-statistics:
+        non-3gpp-to-eutran-irat-ho-att: 0
+        uwlan-to-eutran-irat-ho-att: 0
+        uwlan-to-eutran-irat-ho-succ: 0
+        eutran-to-uwlan-irat-ho-att: 0
+        eutran-to-uwlan-irat-ho-succ: 0
+
+    serving-node-throttling-statistics:
+        create-session-request-throttle-dropped-node: 0
+        modify-bearer-request-throttle-dropped-node: 0
+
+    sxb-association-information:
+        upf-node-id: 6.6.6.6
+        association-setup-req-sent: 2
+        association-setup-resp-acc-rcvd: 1
+        association-setup-req-rcvd: 0
+        association-setup-resp-sent: 0
+        association-update-req-sent: 0
+        association-update-resp-acc-rcvd: 0
+        association-update-req-rcvd: 0
+        association-update-resp-sent: 0
+        association-release-req-sent: 0
+        association-release-resp-acc-rcvd: 0
+        heartbeat-req-sent: 33985
+        heartbeat-resp-rcvd: 33985
+        heartbeat-req-rcvd: 33900
+        heartbeat-resp-sent: 33900
+
+    sxb-session-information:
+        upf-node-id: 6.6.6.6
+        session-establishment-req-sent: 253519081
+        session-establishment-resp-acc-rcvd: 253519071
+        session-modification-req-sent: 4243718079
+        session-modification-resp-acc-rcvd: 4243515419
+        session-deletion-req-sent: 253101596
+        session-deletion-resp-acc-rcvd: 253101541
+        session-report-req-rcvd: 2524402145
+        session-report-resp-acc-sent: 2524402088
+        urr-with-start-traffic: 254694528
+
+    sxb-node-report:
+        upf-node-id: 6.6.6.6
+        node-report-req-rcvd: 0
+        node-report-resp-acc-sent: 0
+
+    pfcp-session-information-iupf:
+        upf-node-id: 6.6.6.6
+        session-establishment-req-sent: 0
+        session-establishment-resp-acc-rcvd: 0
+        session-modification-req-sent: 0
+        session-modification-resp-acc-rcvd: 0
+        session-deletion-req-sent: 0
+        session-deletion-resp-acc-rcvd: 0
+        session-report-req-rcvd: 0
+        session-report-resp-acc-sent: 0
+
+    ismf-pfcp-session-information-iupf:
+        upf-node-id: 6.6.6.6
+        session-establishment-req-sent: 0
+        session-establishment-resp-acc-rcvd: 0
+        session-modification-req-sent: 0
+        session-modification-resp-acc-rcvd: 0
+        session-deletion-req-sent: 0
+        session-deletion-resp-acc-rcvd: 0
+        session-report-req-rcvd: 0
+        session-report-resp-acc-sent: 0
+
+    vsmf-pfcp-session-information-vupf:
+        upf-node-id: 6.6.6.6
+        session-establishment-req-sent: 0
+        session-establishment-resp-acc-rcvd: 0
+        session-modification-req-sent: 0
+        session-modification-resp-acc-rcvd: 0
+        session-deletion-req-sent: 0
+        session-deletion-resp-acc-rcvd: 0
+        session-report-req-rcvd: 0
+        session-report-resp-acc-sent: 0
+[local]GGKNG1#epg sgw statistics
+sgw-statistics:
+
+    sgw-number-of-ues:
+        sgw-nbr-of-ues: 399511
+        sgw-nbr-of-connected-ues: 105193
+        nbr-of-lte-m-ues: 0
+        nbr-of-suspended-ues: 1382
+        nbr-of-emc-unauth-ues: 0
+        nbr-of-ues-pending-restoration: 0
+        ue-restoration-completed: 0
+        ue-restoration-attempted: 0
+        nbr-of-nb-iot-ues: 0
+        nbr-of-s11-u-lte-m-ues: 0
+        nbr-of-s11-u-ues: 0
+        nbr-of-s11-u-nb-iot-ues: 0
+        sgw-nbr-of-non-ip-ues: 0
+
+    sgw-number-of-sessions:
+        sgw-nbr-of-pdn-connections: 451452
+        sgw-nbr-of-lapi-pdn-connections: 0
+        sgw-nbr-of-lte-m-bearers: 0
+        sgw-nbr-of-lte-m-pdn-connections: 0
+        sgw-nbr-of-3gdt-pdn-connections: 0
+        sgw-nbr-of-pgw-pause-chrg-enabled-pdn-connections: 0
+        sgw-nbr-of-pgw-paused-chrg-pdn-connections: 0
+        sgw-nbr-of-nb-iot-pdn-connections: 0
+        sgw-nbr-of-s11-u-pdn-connections: 0
+        sgw-nbr-of-s11-u-nb-iot-pdn-connections: 0
+        sgw-nbr-of-non-ip-pdn-connections: 0
+        sgw-nbr-of-bearers: 468574
+        sgw-nbr-of-active-bearers: 137380
+        sgw-nbr-of-idle-bearers: 331194
+        sgw-nbr-of-nb-iot-bearers: 0
+        sgw-nbr-of-s11-u-bearers: 0
+        sgw-nbr-of-s11-u-lte-m-bearers: 0
+        sgw-nbr-of-s11-u-lte-m-pdn-connections: 0
+        sgw-nbr-of-s11-u-nb-iot-bearers: 0
+        sgw-nbr-of-pdn-connections-in-dl-buffer-duration: 0
+
+    sgw-gtp-tunnel-mgmt-s4s11:
+        sm-create-session-req-rcvd: 446540371
+        sm-create-session-resp-acc-sent: 434877884
+        sm-create-session-resp-rej-sent: 11504545
+        sm-modify-bearer-req-rcvd: 8007834448
+        sm-modify-bearer-resp-acc-sent: 8006369668
+        sm-modify-bearer-resp-rej-sent: 1412479
+        sm-modify-access-bearers-req-rcvd: 0
+        sm-modify-access-bearers-resp-acc-sent: 0
+        sm-modify-access-bearers-resp-rej-sent: 0
+        sm-delete-session-req-rcvd: 222773369
+        sm-delete-session-resp-acc-sent: 220092801
+        sm-delete-session-resp-rej-sent: 1147865
+        sm-delete-bearer-req-sent: 360809874
+        sm-delete-bearer-resp-acc-rcvd: 356461756
+        sm-delete-bearer-resp-rej-rcvd: 3012435
+        sm-dl-data-notif-sent: 3047671787
+        sm-dl-data-notif-ack-acc-rcvd: 3037763515
+        sm-dl-data-notif-ack-rej-rcvd: 9888085
+        sm-dl-data-notif-failure-ind-rcvd: 41655538
+        sm-dl-data-notif-smart-paging-sent: 0
+        sm-dl-data-notif-dropped-rate-control: 0
+        sm-rel-access-bearers-req-rcvd: 5945875066
+        sm-rel-access-bearers-resp-acc-sent: 5940742608
+        sm-rel-access-bearers-resp-rej-sent: 29333
+        sm-update-bearer-req-sent: 137289703
+        sm-update-bearer-resp-acc-rcvd: 114076494
+        sm-update-bearer-resp-rej-rcvd: 22486201
+        sm-create-ind-data-fwd-tl-req-rcvd: 0
+        sm-create-ind-data-fwd-tl-resp-acc-sent: 0
+        sm-create-ind-data-fwd-tl-resp-rej-sent: 0
+        sm-create-bearer-req-sent: 176990852
+        sm-create-bearer-resp-acc-rcvd: 172371471
+        sm-create-bearer-resp-rej-rcvd: 2980158
+        sm-delete-bearer-failure-ind-sent: 1418
+        sm-delete-bearer-cmd-rcvd: 303636
+        sm-delete-ind-data-fwd-tl-req-rcvd: 0
+        sm-delete-ind-data-fwd-tl-resp-acc-sent: 0
+        sm-delete-ind-data-fwd-tl-resp-rej-sent: 0
+        sm-modify-bearer-cmd-rcvd: 860678
+        sm-bearer-resource-cmd-rcvd: 320753
+        sm-bearer-resource-failure-ind-sent: 319393
+        sm-modify-bearer-failure-ind-sent: 191
+        sm-suspend-notif-rcvd: 28735360
+        sm-resume-notif-rcvd: 13061914
+        sm-dl-data-notification-ack-imsi-acc-received: 0
+        sm-dl-data-notification-ack-imsi-rej-received: 0
+        sm-dl-data-notification-failure-ind-imsi-received: 0
+        sm-dl-data-notification-imsi-sent: 0
+        sm-dl-data-notif-intermme-sent: 39918
+        sm-dl-data-notif-intermme-ack-acc-rcvd: 39883
+        sm-dl-data-notif-intermme-ack-rej-rcvd: 35
+        sm-pgw-restart-notif-sent: 0
+        sm-pgw-restart-notif-ack-acc-rcvd: 0
+        sm-pgw-restart-notif-ack-rej-rcvd: 0
+        sm-dl-data-notif-ack-dl-buf-duration-acc-rcvd: 0
+        sm-dl-data-notif-ack-imsi-dl-buf-duration-acc-rcvd: 0
+        sm-change-notification-req-rcvd: 0
+        sm-change-notification-resp-acc-sent: 0
+        sm-change-notification-resp-rej-sent: 0
+
+    sgw-gtp-tunnel-mgmt-s5s8:
+        sm-create-session-req-sent: 310752458
+        sm-create-session-resp-acc-rcvd: 300228317
+        sm-create-session-resp-rej-rcvd: 10286015
+        sm-modify-bearer-req-sent: 3014284138
+        sm-modify-bearer-resp-acc-rcvd: 3013247253
+        sm-modify-bearer-resp-rej-rcvd: 948685
+        sm-delete-session-req-sent: 87529141
+        sm-delete-session-resp-acc-rcvd: 87407421
+        sm-delete-session-resp-rej-rcvd: 98223
+        sm-delete-bearer-req-rcvd: 360916424
+        sm-delete-bearer-resp-acc-sent: 356436000
+        sm-delete-bearer-resp-rej-sent: 3117226
+        sm-update-bearer-req-rcvd: 137230623
+        sm-update-bearer-resp-acc-sent: 114073604
+        sm-update-bearer-resp-rej-sent: 22505930
+        sm-create-bearer-req-rcvd: 176904487
+        sm-create-bearer-resp-acc-sent: 172344824
+        sm-create-bearer-resp-rej-sent: 2987248
+        sm-modify-bearer-cmd-sent: 893641
+        sm-modify-bearer-failure-ind-rcvd: 723
+        sm-delete-bearer-cmd-sent: 302511
+        sm-delete-bearer-failure-ind-rcvd: 499
+        sm-bearer-resource-cmd-sent: 321563
+        sm-bearer-resource-failure-ind-rcvd: 318816
+        sm-suspend-notif-sent: 28431287
+        sm-resume-notif-sent: 13113243
+        sm-enable-pgw-pause-chrg-req-sent: 0
+        sm-enable-pgw-pause-chrg-acc-rcvd: 0
+        sm-enable-pgw-pause-chrg-rej-rcvd: 0
+        sm-start-pgw-pause-chrg-req-sent: 0
+        sm-start-pgw-pause-chrg-acc-rcvd: 0
+        sm-start-pgw-pause-chrg-rej-rcvd: 0
+        sm-stop-pgw-pause-chrg-req-sent: 0
+        sm-stop-pgw-pause-chrg-acc-rcvd: 0
+        sm-stop-pgw-pause-chrg-rej-rcvd: 0
+        sm-change-notification-req-sent: 0
+        sm-change-notification-resp-acc-rcvd: 0
+        sm-change-notification-resp-rej-rcvd: 0
+
+    sgw-gtp-tunnel-mgmt-s5:
+        sm-create-session-req-sent: 0
+        sm-create-session-resp-acc-rcvd: 0
+        sm-create-session-resp-rej-rcvd: 0
+        sm-modify-bearer-req-sent: 0
+        sm-modify-bearer-resp-acc-rcvd: 0
+        sm-modify-bearer-resp-rej-rcvd: 0
+        sm-delete-session-req-sent: 0
+        sm-delete-session-resp-acc-rcvd: 0
+        sm-delete-session-resp-rej-rcvd: 0
+        sm-delete-bearer-req-rcvd: 0
+        sm-delete-bearer-resp-acc-sent: 0
+        sm-delete-bearer-resp-rej-sent: 0
+        sm-update-bearer-req-rcvd: 0
+        sm-update-bearer-resp-acc-sent: 0
+        sm-update-bearer-resp-rej-sent: 0
+        sm-create-bearer-req-rcvd: 0
+        sm-create-bearer-resp-acc-sent: 0
+        sm-create-bearer-resp-rej-sent: 0
+        sm-modify-bearer-cmd-sent: 0
+        sm-modify-bearer-failure-ind-rcvd: 0
+        sm-delete-bearer-cmd-sent: 0
+        sm-delete-bearer-failure-ind-rcvd: 0
+        sm-bearer-resource-cmd-sent: 0
+        sm-bearer-resource-failure-ind-rcvd: 0
+        sm-suspend-notif-sent: 0
+        sm-resume-notif-sent: 0
+        sm-enable-pgw-pause-chrg-req-sent: 0
+        sm-enable-pgw-pause-chrg-acc-rcvd: 0
+        sm-enable-pgw-pause-chrg-rej-rcvd: 0
+        sm-start-pgw-pause-chrg-req-sent: 0
+        sm-start-pgw-pause-chrg-acc-rcvd: 0
+        sm-start-pgw-pause-chrg-rej-rcvd: 0
+        sm-stop-pgw-pause-chrg-req-sent: 0
+        sm-stop-pgw-pause-chrg-acc-rcvd: 0
+        sm-stop-pgw-pause-chrg-rej-rcvd: 0
+        sm-change-notification-req-sent: 0
+        sm-change-notification-resp-acc-rcvd: 0
+        sm-change-notification-resp-rej-rcvd: 0
+
+    sgw-gtp-tunnel-mgmt-s8:
+        sm-create-session-req-sent: 0
+        sm-create-session-resp-acc-rcvd: 0
+        sm-create-session-resp-rej-rcvd: 0
+        sm-modify-bearer-req-sent: 0
+        sm-modify-bearer-resp-acc-rcvd: 0
+        sm-modify-bearer-resp-rej-rcvd: 0
+        sm-delete-session-req-sent: 0
+        sm-delete-session-resp-acc-rcvd: 0
+        sm-delete-session-resp-rej-rcvd: 0
+        sm-delete-bearer-req-rcvd: 0
+        sm-delete-bearer-resp-acc-sent: 0
+        sm-delete-bearer-resp-rej-sent: 0
+        sm-update-bearer-req-rcvd: 0
+        sm-update-bearer-resp-acc-sent: 0
+        sm-update-bearer-resp-rej-sent: 0
+        sm-create-bearer-req-rcvd: 0
+        sm-create-bearer-resp-acc-sent: 0
+        sm-create-bearer-resp-rej-sent: 0
+        sm-modify-bearer-cmd-sent: 0
+        sm-modify-bearer-failure-ind-rcvd: 0
+        sm-delete-bearer-cmd-sent: 0
+        sm-delete-bearer-failure-ind-rcvd: 0
+        sm-bearer-resource-cmd-sent: 0
+        sm-bearer-resource-failure-ind-rcvd: 0
+        sm-suspend-notif-sent: 0
+        sm-resume-notif-sent: 0
+        sm-enable-pgw-pause-chrg-req-sent: 0
+        sm-enable-pgw-pause-chrg-acc-rcvd: 0
+        sm-enable-pgw-pause-chrg-rej-rcvd: 0
+        sm-start-pgw-pause-chrg-req-sent: 0
+        sm-start-pgw-pause-chrg-acc-rcvd: 0
+        sm-start-pgw-pause-chrg-rej-rcvd: 0
+        sm-stop-pgw-pause-chrg-req-sent: 0
+        sm-stop-pgw-pause-chrg-acc-rcvd: 0
+        sm-stop-pgw-pause-chrg-rej-rcvd: 0
+        sm-change-notification-req-sent: 0
+        sm-change-notification-resp-acc-rcvd: 0
+        sm-change-notification-resp-rej-rcvd: 0
+
+    sgw-bearer-mgmt-s4s11:
+        sm-dl-data-notif-throttled: 0
+        sm-dl-data-notif-delayed: 0
+        sm-dl-data-notif-delayed-sent: 0
+
+    sgw-gtp-path-mgmt-s4s11:
+        echo-req-sent: 228986
+        echo-resp-acc-rcvd: 228986
+        echo-resp-rej-rcvd: 0
+        echo-req-rcvd: 5648880
+        echo-resp-acc-sent: 5648829
+        echo-resp-rej-sent: 0
+
+    sgw-gtp-path-mgmt-s5s8:
+        echo-req-sent: 28170748
+        echo-resp-acc-rcvd: 27986014
+        echo-resp-rej-rcvd: 0
+        echo-req-rcvd: 3057549
+        echo-resp-acc-sent: 3057544
+        echo-resp-rej-sent: 0
+
+    sgw-gtp-path-mgmt-s5:
+        echo-req-sent: 0
+        echo-resp-acc-rcvd: 0
+        echo-resp-rej-rcvd: 0
+        echo-req-rcvd: 0
+        echo-resp-acc-sent: 0
+        echo-resp-rej-sent: 0
+
+    sgw-gtp-path-mgmt-s8:
+        echo-req-sent: 0
+        echo-resp-acc-rcvd: 0
+        echo-resp-rej-rcvd: 0
+        echo-req-rcvd: 0
+        echo-resp-acc-sent: 0
+        echo-resp-rej-sent: 0
+
+    sgw-gtp-overload-protection:
+        sgw-gtp-message-drops: 0
+        sgw-gtp-create-message-drops: 0
+        sgw-gtp-create-message-rejected: 0
+
+    sgw-gtp-error-stats:
+        sgw-gtp-error-no-resources: 38682
+
+    handover:
+        attempted-pdn-ho-from-non-3gpp: 1450
+        completed-pdn-ho-from-non-3gpp: 7
+
+    offline-charging:
+        rf-acct-req-created: 0
+        rf-acct-req-sent: 0
+        rf-acct-answer-acc-rec: 0
+        rf-acct-answer-rej-rec: 0
+        rf-acct-req-pending-to-be-written-to-disk: 0
+        rf-acct-req-written-to-disk: 0
+
+    high-availability:
+        icr-create-sync-sent: 0
+        icr-create-sync-received: 0
+        icr-delete-sync-sent: 0
+        icr-delete-sync-received: 0
+        uninitialized-users: 0
+        sr-delete-unstable-colocated-pgw: 0
+        sr-delete-unstable-external-pgw: 0
+
+    sgw-load-control-information:
+        load-metric: 0
+
+    sgw-secondary-rat-data-usage:
+        uplink-bytes: 0
+        downlink-bytes: 0
+[local]GGKNG1#epg pgw apn telkomsel statistics
+apn-statistics-information:
+
+    apn-statistics:
+        name: telkomsel
+        subscriber-count-5g: 0
+
+        pdp-context-statistics:
+            ue-count: 415037
+            pdn-count: 417482
+            pdp-active: 15921
+            eps-active-bearer: 418936
+            eps-active-dedicated-bearer: 17388
+            eps-active-bearer-wlan: 0
+            pdp-active-ipv6: 0
+            pdp-active-ipv4v6: 0
+            eps-active-ipv6-bearer: 0
+            eps-active-ipv4v6-bearer: 0
+            eps-active-bearer-nb-iot: 0
+            eps-active-bearer-lte-m: 0
+            pdp-attempted-activation: 31883801
+            pdp-completed-activation: 31839057
+            pdp-attempted-activation-ipv6: 3395
+            pdp-completed-activation-ipv6: 0
+            pdp-attempted-activation-ipv4v6: 829159
+            pdp-completed-activation-ipv4v6: 0
+            pdp-attempted-activation-dynamic: 31883801
+            pdp-completed-activation-dynamic: 31839057
+            pdp-attempted-authentication-activation: 0
+            pdp-completed-authentication-activation: 0
+            eps-attempted-bearer-activation: 389584948
+            eps-completed-bearer-activation: 386493744
+            eps-attempted-dedicated-bearer-activation: 167678899
+            eps-completed-dedicated-bearer-activation: 164813967
+            eps-attempted-ipv6-bearer-activation: 187337
+            eps-completed-ipv6-bearer-activation: 0
+            eps-attempted-ipv6-dedicated-bearer-activation: 0
+            eps-completed-ipv6-dedicated-bearer-activation: 0
+            attempted-pcrf-assisted-apn-selection: 0
+            completed-pcrf-assisted-apn-selection: 0
+            eps-attempted-ipv4v6-bearer-activation: 33174765
+            eps-completed-ipv4v6-bearer-activation: 0
+            eps-attempted-s2b-bearer-activation: 0
+            eps-completed-s2b-bearer-activation: 0
+            eps-attempted-s2b-ipv6-bearer-activation: 0
+            eps-completed-s2b-ipv6-bearer-activation: 0
+            eps-attempted-s2b-ipv4v6-bearer-activation: 0
+            eps-completed-s2b-ipv4v6-bearer-activation: 0
+            eps-attempted-s2b-dedicated-bearer-activation: 0
+            eps-completed-s2b-dedicated-bearer-activation: 0
+            eps-attempted-s2b-ipv6-dedicated-bearer-activation: 0
+            eps-completed-s2b-ipv6-dedicated-bearer-activation: 0
+            eps-active-s2b-dedicated-bearer: 0
+            create-session-rejected-max-rate: 0
+            create-session-emps-rejected-max-rate: 0
+            pdp-attempted-deactivation: 37875882
+            pdp-completed-deactivation: 37859587
+            pdp-attempted-mobile-deactivation: 21226962
+            pdp-completed-mobile-deactivation: 21258032
+            pdp-attempted-node-deactivation: 16648920
+            pdp-completed-node-deactivation: 16601555
+            pdp-attempted-node-local-deactivation: 162
+            pdp-completed-node-local-deactivation: 176
+            pdp-completed-idle-deactivation: 3078177
+            pdp-completed-session-deactivation: 0
+            eps-attempted-bearer-deactivation: 380243471
+            eps-completed-bearer-deactivation: 380157128
+            eps-attempted-s5-ue-sgw-deactivation: 54258128
+            eps-completed-s5-ue-sgw-deactivation: 54171785
+            eps-attempted-s5-ue-sgw-dedicated-bearer-deactivation: 7812766
+            eps-completed-s5-ue-sgw-dedicated-bearer-deactivation: 7812766
+            eps-attempted-s5-network-bearer-deactivation: 325849258
+            eps-completed-s5-network-bearer-deactivation: 325849258
+            eps-attempted-s5-network-dedicated-bearer-deactivation: 156978284
+            eps-completed-s5-network-dedicated-bearer-deactivation: 156978284
+            eps-attempted-s2b-bearer-deactivation: 0
+            eps-completed-s2b-bearer-deactivation: 0
+            pdp-attempted-mobile-sgsn-update: 232589207
+            pdp-completed-mobile-sgsn-update: 228043758
+            eps-attempted-s5-sgw-to-sgsn-update: 134266387
+            eps-completed-s5-sgw-to-sgsn-update: 129729524
+            eps-attempted-s5-ue-sgw-modification: 2818299901
+            eps-completed-s5-ue-sgw-modification: 2818233449
+            eps-attempted-s5-sgsn-to-sgw-modification: 122797589
+            eps-completed-s5-sgsn-to-sgw-modification: 122792888
+            pdp-attempted-ggsn-update: 83
+            pdp-completed-ggsn-update: 64
+            eps-attempted-s5-network-modification: 130077306
+            eps-completed-s5-network-modification: 108809982
+            eps-attempted-s5-network-dedicated-bearer-modification: 25954
+            eps-completed-s5-network-dedicated-bearer-modification: 25943
+            pdp-maximum: 505430
+            pdp-mean: 417489
+            ims-dedicated-completed-activation: 0
+            ims-dedicated-failed-activation: 0
+            ims-general-completed-activation: 0
+            ims-general-failed-activation: 0
+            ims-general-active-failed-activation: 0
+            change-notif-att: 0
+            change-notif-cmpl: 0
+
+        statistics-3gdt:
+            active-3gdt: 0
+            ratio-3gdt: 0
+            successful-3gdt-activations: 0
+            total-3gdt-request: 0
+            errors-3gdt: 0
+            errors-missing-gtp-info-3gdt: 0
+
+        pgw-neighbor-discovery-apn:
+            router-solicitation-req-responded: 0
+            router-solicitation-req-received: 0
+            neighbor-solicitation-req-responded: 0
+            neighbor-solicitation-req-received: 0
+
+        policy-control-information:
+            offline-sessions: 0
+
+            gx-information:
+
+                gx:
+                    das-identifier: gamebooster-das
+                    ccr-initial-sent: 132321
+                    ccr-initial-failed: 1991
+                    ccr-update-sent: 892235
+                    ccr-update-failed: 37
+                    ccr-termination-sent: 127927
+                    ccr-termination-failed: 80
+                    user-service-denied: 0
+                    user-unknown: 0
+                    authorization-failure: 0
+                    authentication-failure: 0
+                    unknown-session-id: 0
+                    active-gx-sessions: 251
+                    pending-transaction-received: 0
+                    pending-transaction-sent: 343
+                    pending-transaction-loop-termination: 0
+                    temporarily-offline-sessions: 0
+                    permanently-offline-sessions: 0
+                    rar-received: 21560
+                    online-charging-rules: 0
+                    offline-charging-rules: 0
+
+                gx:
+                    das-identifier: upcc01-das
+                    ccr-initial-sent: 253557626
+                    ccr-initial-failed: 177
+                    ccr-update-sent: 1329286388
+                    ccr-update-failed: 1903
+                    ccr-termination-sent: 252973650
+                    ccr-termination-failed: 3
+                    user-service-denied: 0
+                    user-unknown: 0
+                    authorization-failure: 0
+                    authentication-failure: 0
+                    unknown-session-id: 0
+                    active-gx-sessions: 417242
+                    pending-transaction-received: 0
+                    pending-transaction-sent: 111869
+                    pending-transaction-loop-termination: 0
+                    temporarily-offline-sessions: 0
+                    permanently-offline-sessions: 0
+                    rar-received: 9346493
+                    online-charging-rules: 0
+                    offline-charging-rules: 0
+
+        credit-control-information:
+
+            gy-information:
+
+                gy:
+                    das-identifier: DCCASRVKNG1-das
+                    ccr-initial-sent: 97267370
+                    ccr-initial-failed: 66211880
+                    ccr-update-sent: 12988177
+                    ccr-update-failed: 294279
+                    ccr-termination-sent: 30697139
+                    ccr-termination-failed: 18782482
+                    user-service-denied: 2607
+                    user-unknown: 66186118
+                    authorization-rejected: 3907415
+                    credit-control-not-applicable: 0
+                    ccr-event-sent: 0
+                    ccr-event-failed: 0
+                    asr-received: 0
+                    rar-received: 0
+                    retained-failure-code: 0
+                    retained-timeout: 0
+                    retained-connection-failure: 0
+                    failure-action-continue-and-retain: 0
+                    temporarily-offline-failure-code: 0
+                    temporarily-offline-timeout: 0
+                    temporarily-offline-connection-failure: 0
+                    temporarily-offline-validation-error: 0
+                    temporarily-offline-server-restart: 0
+                    permanently-offline-failure-code: 0
+                    permanently-offline-timeout: 0
+                    permanently-offline-connection-failure: 0
+                    permanently-offline-validation-error: 0
+                    permanently-offline-server-restart: 0
+
+        radius-statistics-information:
+            radius-authentication-failure: 0
+            accounting-failure: 0
+            radius-id-overflow: 0
+
+        pause-charging:
+            paused-pdn-connections: 0
+            paused-charging-supported: 0
+
+            procedures:
+                negotiation-req: 0
+                negotiation-acc: 0
+                negotiation-rej: 0
+                start-req: 0
+                start-acc: 0
+                start-rej: 0
+                stop-req: 0
+                stop-acc: 0
+                stop-rej: 0
+
+        apn-pgw-upf-statistics:
+            upf-node-name: internal-user-plane
+            active-sessions: 417470
+
+        pgw-apn-ipv6-prefix-delegation:
+            solicit-received: 0
+            request-received: 0
+            renew-received: 0
+            release-received: 0
+            solicit-received-discarded: 0
+            request-received-discarded: 0
+            renew-received-discarded: 0
+            release-received-discarded: 0
+            advertise-sent: 0
+            request-reply-sent: 0
+            renew-reply-sent: 0
+            release-reply-sent: 0
+            solicit-reply-sent: 0
+[local]GGKNG1#epg user-plane network-instance s5s8-u-if statistics
+network-instance: s5s8-u-if
+
+    interface: core
+
+    up-payload-ip-udp-unstr-ni-if:
+        in-ipv4-udp-unstr-pkts: 0
+        in-ipv4-udp-unstr-bytes: 0
+        in-ipv6-udp-unstr-pkts: 0
+        in-ipv6-udp-unstr-bytes: 0
+        in-unstr-pkts: 0
+        in-unstr-bytes: 0
+        in-unstr-pkts-drop: 0
+        in-unstr-pkts-drop-gate-closed: 0
+        in-unstr-pkts-drop-bitrate: 0
+        in-unstr-pkts-drop-pkt-rate: 0
+        in-unstr-pkts-drop-buffer-full: 0
+        in-unstr-pkts-drop-fwd-action: 0
+        in-unstr-pkts-drop-buffer-flush: 0
+        in-unstr-pkts-drop-quota: 0
+        in-unstr-pkts-drop-quota-holding-time: 0
+        out-unstr-pkts: 0
+        out-unstr-bytes: 0
+        out-ipv4-udp-unstr-pkts: 0
+        out-ipv4-udp-unstr-bytes: 0
+        out-ipv6-udp-unstr-pkts: 0
+        out-ipv6-udp-unstr-bytes: 0
+
+    up-payload-gtp-ni-if:
+        in-ipv4-gtp-pkts: 6620014935563
+        in-ipv4-gtp-pkts-drop: 80
+        in-ipv4-gtp-pkts-drop-no-pdr: 0
+        out-ipv4-gtp-pkts: 2773616268084
+        in-ipv6-gtp-pkts: 0
+        in-ipv6-gtp-pkts-drop: 0
+        in-ipv6-gtp-pkts-drop-no-pdr: 0
+        out-ipv6-gtp-pkts: 0
+        in-gtp-ipv4-pkts: 6610099848946
+        in-gtp-ipv4-bytes: 6914955900597635
+        in-gtp-ipv4-pkts-drop: 4135224753
+        in-gtp-ipv4-pkts-drop-gate-closed: 0
+        in-gtp-ipv4-pkts-drop-bitrate: 0
+        in-gtp-ipv4-pkts-drop-pkt-rate: 0
+        in-gtp-ipv4-pkts-drop-buffer-full: 3472630662
+        in-gtp-ipv4-pkts-drop-buffer-flush: 658807656
+        in-gtp-ipv4-pkts-drop-fwd-action: 3786414
+        in-gtp-ipv4-pkts-drop-quota: 0
+        in-gtp-ipv4-pkts-drop-quota-holding-time: 0
+        in-gtp-ipv4-pkts-redirect-http: 0
+        out-gtp-ipv4-pkts: 2770217107451
+        out-gtp-ipv4-bytes: 611298155450455
+        in-gtp-ipv6-pkts: 9915085818
+        in-gtp-ipv6-bytes: 11275151096852
+        in-gtp-ipv6-pkts-drop: 4244056
+        in-gtp-ipv6-pkts-drop-gate-closed: 0
+        in-gtp-ipv6-pkts-drop-bitrate: 0
+        in-gtp-ipv6-pkts-drop-pkt-rate: 0
+        in-gtp-ipv6-pkts-drop-buffer-full: 2994002
+        in-gtp-ipv6-pkts-drop-buffer-flush: 1246031
+        in-gtp-ipv6-pkts-drop-fwd-action: 4023
+        in-gtp-ipv6-pkts-drop-quota: 0
+        in-gtp-ipv6-pkts-drop-quota-holding-time: 0
+        in-gtp-ipv6-pkts-redirect-http: 0
+        out-gtp-ipv6-pkts: 3399160229
+        out-gtp-ipv6-bytes: 808891836099
+        in-gtp-ipv4-pkts-redirect-nat: 0
+        in-gtp-ipv6-pkts-redirect-nat: 0
+        in-gtp-ipv4-flows-redirect-nat: 0
+        in-gtp-ipv6-flows-redirect-nat: 0
+        in-gtp-ipv4-flows-nat-sf: 0
+        in-gtp-ipv6-flows-nat-sf: 0
+
+    up-gtp-path-mgmt-ni-if:
+        in-gtp-echo-req: 161235
+        in-gtp-echo-rsp: 0
+        out-gtp-echo-req: 0
+        out-gtp-echo-rsp: 161235
+
+    up-gtp-tunnel-mgmt-ni-if:
+        in-gtp-error-ind: 59249
+        out-gtp-error-ind: 225453
+        received-gtp-end-marker: 151962754
+        forwarded-gtp-end-marker: 0
+        sent-gtp-end-marker: 0
+
+    up-payload-ip-ni-if:
+        in-ipv4-pkts: 0
+        in-ipv4-bytes: 0
+        in-ipv4-pkts-fragment: 0
+        in-ipv4-bytes-fragment: 0
+        in-ipv4-pkts-forced-fragment: 0
+        in-ipv4-pkts-drop: 0
+        in-ipv4-pkts-drop-no-pdr: 0
+        in-ipv4-pkts-drop-gate-closed: 0
+        in-ipv4-pkts-drop-bitrate: 0
+        in-ipv4-pkts-drop-pkt-rate: 0
+        in-ipv4-pkts-drop-buffer-full: 0
+        in-ipv4-pkts-drop-buffer-flush: 0
+        in-ipv4-pkts-drop-fwd-action: 0
+        in-ipv4-pkts-drop-quota: 0
+        in-ipv4-pkts-drop-quota-holding-time: 0
+        in-ipv4-pkts-redirect-http: 0
+        in-ipv4-pkts-drop-need-fragment: 0
+        in-ipv4-pkts-drop-fragment-failed: 0
+        in-ipv4-pkts-drop-invalid-destination: 0
+        out-ipv4-pkts: 0
+        out-ipv4-bytes: 0
+        out-ipv4-icmp-need-fragment-pkts: 0
+        out-ipv4-pkts-drop: 0
+        out-ipv4-pkts-drop-need-fragment: 0
+        in-ipv6-pkts: 0
+        in-ipv6-bytes: 0
+        in-ipv6-pkts-fragment: 0
+        in-ipv6-bytes-fragment: 0
+        in-ipv6-pkts-forced-fragment: 0
+        in-ipv6-pkts-drop: 0
+        in-ipv6-pkts-drop-no-pdr: 0
+        in-ipv6-pkts-drop-gate-closed: 0
+        in-ipv6-pkts-drop-bitrate: 0
+        in-ipv6-pkts-drop-pkt-rate: 0
+        in-ipv6-pkts-drop-buffer-full: 0
+        in-ipv6-pkts-drop-buffer-flush: 0
+        in-ipv6-pkts-drop-fwd-action: 0
+        in-ipv6-pkts-drop-quota: 0
+        in-ipv6-pkts-drop-quota-holding-time: 0
+        in-ipv6-pkts-redirect-http: 0
+        in-ipv6-pkts-drop-too-big: 0
+        in-ipv6-pkts-drop-fragment-failed: 0
+        in-ipv6-pkts-drop-invalid-destination: 0
+        out-ipv6-pkts: 0
+        out-ipv6-bytes: 0
+        out-ipv6-icmp-too-big-pkts: 0
+        out-ipv6-pkts-drop: 0
+        out-ipv6-pkts-drop-too-big: 0
+
+    up-payload-gtp-unstr-ni-if:
+        in-gtp-unstr-pkts: 0
+        in-gtp-unstr-bytes: 0
+        in-gtp-unstr-pkts-drop: 0
+        in-gtp-unstr-pkts-drop-gate-closed: 0
+        in-gtp-unstr-pkts-drop-bitrate: 0
+        in-gtp-unstr-pkts-drop-pkt-rate: 0
+        in-gtp-unstr-pkts-drop-buffer-full: 0
+        in-gtp-unstr-pkts-drop-fwd-action: 0
+        in-gtp-unstr-pkts-drop-buffer-flush: 0
+        in-gtp-unstr-pkts-drop-quota: 0
+        in-gtp-unstr-pkts-drop-quota-holding-time: 0
+        out-gtp-unstr-pkts: 0
+        out-gtp-unstr-bytes: 0
+
+    interface: access
+
+    up-payload-ip-udp-unstr-ni-if:
+        in-ipv4-udp-unstr-pkts: 0
+        in-ipv4-udp-unstr-bytes: 0
+        in-ipv6-udp-unstr-pkts: 0
+        in-ipv6-udp-unstr-bytes: 0
+        in-unstr-pkts: 0
+        in-unstr-bytes: 0
+        in-unstr-pkts-drop: 0
+        in-unstr-pkts-drop-gate-closed: 0
+        in-unstr-pkts-drop-bitrate: 0
+        in-unstr-pkts-drop-pkt-rate: 0
+        in-unstr-pkts-drop-buffer-full: 0
+        in-unstr-pkts-drop-fwd-action: 0
+        in-unstr-pkts-drop-buffer-flush: 0
+        in-unstr-pkts-drop-quota: 0
+        in-unstr-pkts-drop-quota-holding-time: 0
+        out-unstr-pkts: 0
+        out-unstr-bytes: 0
+        out-ipv4-udp-unstr-pkts: 0
+        out-ipv4-udp-unstr-bytes: 0
+        out-ipv6-udp-unstr-pkts: 0
+        out-ipv6-udp-unstr-bytes: 0
+
+    up-payload-gtp-ni-if:
+        in-ipv4-gtp-pkts: 2696305256203
+        in-ipv4-gtp-pkts-drop: 849752415
+        in-ipv4-gtp-pkts-drop-no-pdr: 849381150
+        out-ipv4-gtp-pkts: 6466135345292
+        in-ipv6-gtp-pkts: 0
+        in-ipv6-gtp-pkts-drop: 0
+        in-ipv6-gtp-pkts-drop-no-pdr: 0
+        out-ipv6-gtp-pkts: 0
+        in-gtp-ipv4-pkts: 2695451604817
+        in-gtp-ipv4-bytes: 597970769790868
+        in-gtp-ipv4-pkts-drop: 52044131722
+        in-gtp-ipv4-pkts-drop-gate-closed: 1944514712
+        in-gtp-ipv4-pkts-drop-bitrate: 2685866461
+        in-gtp-ipv4-pkts-drop-pkt-rate: 0
+        in-gtp-ipv4-pkts-drop-buffer-full: 0
+        in-gtp-ipv4-pkts-drop-buffer-flush: 6103336
+        in-gtp-ipv4-pkts-drop-fwd-action: 750120558
+        in-gtp-ipv4-pkts-drop-quota: 46418289058
+        in-gtp-ipv4-pkts-drop-quota-holding-time: 58
+        in-gtp-ipv4-pkts-redirect-http: 83479880
+        out-gtp-ipv4-pkts: 6466046468254
+        out-gtp-ipv4-bytes: 6760174414390722
+        in-gtp-ipv6-pkts: 3898681
+        in-gtp-ipv6-bytes: 246021757
+        in-gtp-ipv6-pkts-drop: 247152
+        in-gtp-ipv6-pkts-drop-gate-closed: 9681
+        in-gtp-ipv6-pkts-drop-bitrate: 3
+        in-gtp-ipv6-pkts-drop-pkt-rate: 0
+        in-gtp-ipv6-pkts-drop-buffer-full: 0
+        in-gtp-ipv6-pkts-drop-buffer-flush: 596
+        in-gtp-ipv6-pkts-drop-fwd-action: 7400
+        in-gtp-ipv6-pkts-drop-quota: 228964
+        in-gtp-ipv6-pkts-drop-quota-holding-time: 0
+        in-gtp-ipv6-pkts-redirect-http: 0
+        out-gtp-ipv6-pkts: 0
+        out-gtp-ipv6-bytes: 0
+        in-gtp-ipv4-pkts-redirect-nat: 0
+        in-gtp-ipv6-pkts-redirect-nat: 0
+        in-gtp-ipv4-flows-redirect-nat: 0
+        in-gtp-ipv6-flows-redirect-nat: 0
+        in-gtp-ipv4-flows-nat-sf: 0
+        in-gtp-ipv6-flows-nat-sf: 0
+
+    up-gtp-path-mgmt-ni-if:
+        in-gtp-echo-req: 9961886
+        in-gtp-echo-rsp: 0
+        out-gtp-echo-req: 0
+        out-gtp-echo-rsp: 9961886
+
+    up-gtp-tunnel-mgmt-ni-if:
+        in-gtp-error-ind: 1669410
+        out-gtp-error-ind: 300561
+        received-gtp-end-marker: 0
+        forwarded-gtp-end-marker: 0
+        sent-gtp-end-marker: 0
+
+    up-payload-ip-ni-if:
+        in-ipv4-pkts: 0
+        in-ipv4-bytes: 0
+        in-ipv4-pkts-fragment: 0
+        in-ipv4-bytes-fragment: 0
+        in-ipv4-pkts-forced-fragment: 0
+        in-ipv4-pkts-drop: 15085429
+        in-ipv4-pkts-drop-no-pdr: 0
+        in-ipv4-pkts-drop-gate-closed: 0
+        in-ipv4-pkts-drop-bitrate: 0
+        in-ipv4-pkts-drop-pkt-rate: 0
+        in-ipv4-pkts-drop-buffer-full: 0
+        in-ipv4-pkts-drop-buffer-flush: 0
+        in-ipv4-pkts-drop-fwd-action: 0
+        in-ipv4-pkts-drop-quota: 0
+        in-ipv4-pkts-drop-quota-holding-time: 0
+        in-ipv4-pkts-redirect-http: 0
+        in-ipv4-pkts-drop-need-fragment: 0
+        in-ipv4-pkts-drop-fragment-failed: 0
+        in-ipv4-pkts-drop-invalid-destination: 15085429
+        out-ipv4-pkts: 0
+        out-ipv4-bytes: 0
+        out-ipv4-icmp-need-fragment-pkts: 0
+        out-ipv4-pkts-drop: 0
+        out-ipv4-pkts-drop-need-fragment: 0
+        in-ipv6-pkts: 0
+        in-ipv6-bytes: 0
+        in-ipv6-pkts-fragment: 0
+        in-ipv6-bytes-fragment: 0
+        in-ipv6-pkts-forced-fragment: 0
+        in-ipv6-pkts-drop: 15
+        in-ipv6-pkts-drop-no-pdr: 0
+        in-ipv6-pkts-drop-gate-closed: 0
+        in-ipv6-pkts-drop-bitrate: 0
+        in-ipv6-pkts-drop-pkt-rate: 0
+        in-ipv6-pkts-drop-buffer-full: 0
+        in-ipv6-pkts-drop-buffer-flush: 0
+        in-ipv6-pkts-drop-fwd-action: 0
+        in-ipv6-pkts-drop-quota: 0
+        in-ipv6-pkts-drop-quota-holding-time: 0
+        in-ipv6-pkts-redirect-http: 0
+        in-ipv6-pkts-drop-too-big: 0
+        in-ipv6-pkts-drop-fragment-failed: 0
+        in-ipv6-pkts-drop-invalid-destination: 15
+        out-ipv6-pkts: 0
+        out-ipv6-bytes: 0
+        out-ipv6-icmp-too-big-pkts: 0
+        out-ipv6-pkts-drop: 0
+        out-ipv6-pkts-drop-too-big: 0
+
+    up-payload-gtp-unstr-ni-if:
+        in-gtp-unstr-pkts: 0
+        in-gtp-unstr-bytes: 0
+        in-gtp-unstr-pkts-drop: 0
+        in-gtp-unstr-pkts-drop-gate-closed: 0
+        in-gtp-unstr-pkts-drop-bitrate: 0
+        in-gtp-unstr-pkts-drop-pkt-rate: 0
+        in-gtp-unstr-pkts-drop-buffer-full: 0
+        in-gtp-unstr-pkts-drop-fwd-action: 0
+        in-gtp-unstr-pkts-drop-buffer-flush: 0
+        in-gtp-unstr-pkts-drop-quota: 0
+        in-gtp-unstr-pkts-drop-quota-holding-time: 0
+        out-gtp-unstr-pkts: 0
+        out-gtp-unstr-bytes: 0
+
+
+[local]GGKNG1#epg user-plane network-instance GiTelkomsel-Vr statistics
+network-instance: GiTelkomsel-Vr
+
+    interface: core
+
+    up-payload-ip-udp-unstr-ni-if:
+        in-ipv4-udp-unstr-pkts: 4350
+        in-ipv4-udp-unstr-bytes: 0
+        in-ipv6-udp-unstr-pkts: 0
+        in-ipv6-udp-unstr-bytes: 0
+        in-unstr-pkts: 4350
+        in-unstr-bytes: 1953691
+        in-unstr-pkts-drop: 4350
+        in-unstr-pkts-drop-gate-closed: 0
+        in-unstr-pkts-drop-bitrate: 0
+        in-unstr-pkts-drop-pkt-rate: 0
+        in-unstr-pkts-drop-buffer-full: 0
+        in-unstr-pkts-drop-fwd-action: 0
+        in-unstr-pkts-drop-buffer-flush: 0
+        in-unstr-pkts-drop-quota: 0
+        in-unstr-pkts-drop-quota-holding-time: 0
+        out-unstr-pkts: 0
+        out-unstr-bytes: 0
+        out-ipv4-udp-unstr-pkts: 0
+        out-ipv4-udp-unstr-bytes: 0
+        out-ipv6-udp-unstr-pkts: 0
+        out-ipv6-udp-unstr-bytes: 0
+
+    up-payload-gtp-ni-if:
+        in-ipv4-gtp-pkts: 0
+        in-ipv4-gtp-pkts-drop: 0
+        in-ipv4-gtp-pkts-drop-no-pdr: 0
+        out-ipv4-gtp-pkts: 0
+        in-ipv6-gtp-pkts: 0
+        in-ipv6-gtp-pkts-drop: 0
+        in-ipv6-gtp-pkts-drop-no-pdr: 0
+        out-ipv6-gtp-pkts: 0
+        in-gtp-ipv4-pkts: 0
+        in-gtp-ipv4-bytes: 0
+        in-gtp-ipv4-pkts-drop: 0
+        in-gtp-ipv4-pkts-drop-gate-closed: 0
+        in-gtp-ipv4-pkts-drop-bitrate: 0
+        in-gtp-ipv4-pkts-drop-pkt-rate: 0
+        in-gtp-ipv4-pkts-drop-buffer-full: 0
+        in-gtp-ipv4-pkts-drop-buffer-flush: 0
+        in-gtp-ipv4-pkts-drop-fwd-action: 0
+        in-gtp-ipv4-pkts-drop-quota: 0
+        in-gtp-ipv4-pkts-drop-quota-holding-time: 0
+        in-gtp-ipv4-pkts-redirect-http: 0
+        out-gtp-ipv4-pkts: 0
+        out-gtp-ipv4-bytes: 0
+        in-gtp-ipv6-pkts: 0
+        in-gtp-ipv6-bytes: 0
+        in-gtp-ipv6-pkts-drop: 0
+        in-gtp-ipv6-pkts-drop-gate-closed: 0
+        in-gtp-ipv6-pkts-drop-bitrate: 0
+        in-gtp-ipv6-pkts-drop-pkt-rate: 0
+        in-gtp-ipv6-pkts-drop-buffer-full: 0
+        in-gtp-ipv6-pkts-drop-buffer-flush: 0
+        in-gtp-ipv6-pkts-drop-fwd-action: 0
+        in-gtp-ipv6-pkts-drop-quota: 0
+        in-gtp-ipv6-pkts-drop-quota-holding-time: 0
+        in-gtp-ipv6-pkts-redirect-http: 0
+        out-gtp-ipv6-pkts: 0
+        out-gtp-ipv6-bytes: 0
+        in-gtp-ipv4-pkts-redirect-nat: 0
+        in-gtp-ipv6-pkts-redirect-nat: 0
+        in-gtp-ipv4-flows-redirect-nat: 0
+        in-gtp-ipv6-flows-redirect-nat: 0
+        in-gtp-ipv4-flows-nat-sf: 0
+        in-gtp-ipv6-flows-nat-sf: 0
+
+    up-gtp-path-mgmt-ni-if:
+        in-gtp-echo-req: 0
+        in-gtp-echo-rsp: 0
+        out-gtp-echo-req: 0
+        out-gtp-echo-rsp: 0
+
+    up-gtp-tunnel-mgmt-ni-if:
+        in-gtp-error-ind: 0
+        out-gtp-error-ind: 0
+        received-gtp-end-marker: 0
+        forwarded-gtp-end-marker: 0
+        sent-gtp-end-marker: 0
+
+    up-payload-ip-ni-if:
+        in-ipv4-pkts: 6505694297457
+        in-ipv4-bytes: 6786909965548423
+        in-ipv4-pkts-fragment: 34
+        in-ipv4-bytes-fragment: 26384
+        in-ipv4-pkts-forced-fragment: 0
+        in-ipv4-pkts-drop: 39642526811
+        in-ipv4-pkts-drop-no-pdr: 65864603
+        in-ipv4-pkts-drop-gate-closed: 660791094
+        in-ipv4-pkts-drop-bitrate: 19574208326
+        in-ipv4-pkts-drop-pkt-rate: 0
+        in-ipv4-pkts-drop-buffer-full: 0
+        in-ipv4-pkts-drop-buffer-flush: 885222
+        in-ipv4-pkts-drop-fwd-action: 449703139
+        in-ipv4-pkts-drop-quota: 18824947769
+        in-ipv4-pkts-drop-quota-holding-time: 27
+        in-ipv4-pkts-redirect-http: 16708
+        in-ipv4-pkts-drop-need-fragment: 0
+        in-ipv4-pkts-drop-fragment-failed: 0
+        in-ipv4-pkts-drop-invalid-destination: 0
+        out-ipv4-pkts: 2655765942710
+        out-ipv4-bytes: 580807125006413
+        out-ipv4-icmp-need-fragment-pkts: 0
+        out-ipv4-pkts-drop: 0
+        out-ipv4-pkts-drop-need-fragment: 0
+        in-ipv6-pkts: 0
+        in-ipv6-bytes: 0
+        in-ipv6-pkts-fragment: 0
+        in-ipv6-bytes-fragment: 0
+        in-ipv6-pkts-forced-fragment: 0
+        in-ipv6-pkts-drop: 0
+        in-ipv6-pkts-drop-no-pdr: 0
+        in-ipv6-pkts-drop-gate-closed: 0
+        in-ipv6-pkts-drop-bitrate: 0
+        in-ipv6-pkts-drop-pkt-rate: 0
+        in-ipv6-pkts-drop-buffer-full: 0
+        in-ipv6-pkts-drop-buffer-flush: 0
+        in-ipv6-pkts-drop-fwd-action: 0
+        in-ipv6-pkts-drop-quota: 0
+        in-ipv6-pkts-drop-quota-holding-time: 0
+        in-ipv6-pkts-redirect-http: 0
+        in-ipv6-pkts-drop-too-big: 0
+        in-ipv6-pkts-drop-fragment-failed: 0
+        in-ipv6-pkts-drop-invalid-destination: 0
+        out-ipv6-pkts: 3651516
+        out-ipv6-bytes: 229076948
+        out-ipv6-icmp-too-big-pkts: 0
+        out-ipv6-pkts-drop: 0
+        out-ipv6-pkts-drop-too-big: 0
+
+    up-payload-gtp-unstr-ni-if:
+        in-gtp-unstr-pkts: 0
+        in-gtp-unstr-bytes: 0
+        in-gtp-unstr-pkts-drop: 0
+        in-gtp-unstr-pkts-drop-gate-closed: 0
+        in-gtp-unstr-pkts-drop-bitrate: 0
+        in-gtp-unstr-pkts-drop-pkt-rate: 0
+        in-gtp-unstr-pkts-drop-buffer-full: 0
+        in-gtp-unstr-pkts-drop-fwd-action: 0
+        in-gtp-unstr-pkts-drop-buffer-flush: 0
+        in-gtp-unstr-pkts-drop-quota: 0
+        in-gtp-unstr-pkts-drop-quota-holding-time: 0
+        out-gtp-unstr-pkts: 0
+        out-gtp-unstr-bytes: 0
+
+
+[local]GGKNG1#Data collect : finished!
